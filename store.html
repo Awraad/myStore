@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>store</title>
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+<style>
+.mySlides {display:none;}
+
+img.mySlides {
+    height: 219px;
+    margin-top: 32px;
+    float: right;
+}
+
+</style>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+<header>
+	<h3>iStore <img src="Apple.png"></h3>
+	<ul class="social">  
+		<li><a href="#"></a><img src="instagram.png"></li>
+<li><a href="#"></a><img src="snapchat.png"></li>
+<li><a href="#"></a><img src="twitter.png"></li>
+
+	</ul>
+	<div class="nav">
+	<ul>
+	<li><a href="store.html">Home</a></li>
+		<li><a href="bestSales.html">Best sales </a></li>
+		<li><div class="dropdown" style="float:left;">
+         <button class="dropbtn">Accessories</button>
+        <div class="dropdown-content" style="left:0;">
+				    <a href="products.html">mac</a>
+				    <a href="products.html">iphone </a>
+				    <a href="products.html">ipad</a> </div></div></li>
+	    <li><a href="specialOffer.html">special effort</a></li>
+	</ul>,
+</div>
+</header>
+
+
+	<aside>
+	<div class="user">
+   <h5>(0)</h5>
+   <div class="user2">
+	<a href="#"><img src="shopping-cart.png"></a>
+		 <a href="user.html"><img src="round-account-button-with-user-inside.png"></a>
+      </div>
+     
+		<input  type="text" placeholder="search" name="search"> 
+		</div>
+	</aside>
+
+	<!--<div  class="new-product"><img src="download.jpg"></div>!-->
+
+<div class="w3-content w3-section">
+  <img class="mySlides" src="armband_thumb.jpg"  >
+  <img class="mySlides" src="ihome.jpg" >
+ 
+</div>
+<main>
+<div class="product">
+ <ul>
+ 	<li><a href="#"><img src="iphone-accessories-2.png"></a>
+ 	<p>description box</p>
+ 	<button>add to cart</button>
+ 	</li>
+
+ 	<li>
+ 	<a href="#"><img src="iphone-accessories-2.png"></a>
+     <p>description box</p>
+ 	<button>add to cart</button>
+ 	</li>
+
+ 	<li>
+ 	<a href="#"><img src="iphone-accessories-2.png"></a>
+    <p>description box</p>
+ 	<button>add to cart</button>
+ 	</li>
+ 	<li>
+ 	<a href="#"><img src="iphone-accessories-2.png"></a>
+    <p>description box</p>
+ 	<button>add to cart</button>
+ 	</li>
+ 	<li>
+ 	<a href="#"><img src="iphone-accessories-2.png"></a>
+    <p>description box</p>
+ 	<button>add to cart</button>
+ 	</li>
+ 	<li>
+ 	<a href="#"><img src="iphone-accessories-2.png"></a>
+    <p>description box</p>
+ 	<button>add to cart</button>
+ 	</li>
+
+ </ul>
+</div>
+</main>
+
+
+
+<footer>
+<div class="info">
+  	<h4 >GET TO KNOW US </h4> <br>
+  	<div  class="about">
+     <h6>About Us</h6>
+      <h6>Term OF Use</h6>
+	<h6>Delviery Information</h6>
+	<h6>Bank Accounts</h6>
+	</div>
+   </div>
+   <div class="contact">
+   <H4>CONTACT US</H4>
+   <h6>help@istore.com.sa</h6>
+   <h6>Tel:920004321</h6>
+   
+</div>
+<p>© 2016 iSTORE. All Rights Reserved.</p>
+</footer>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>

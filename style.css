@@ -1,0 +1,358 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+ 
+    height: 20%;
+    width: 90%;
+}
+header h3 {
+    color: red;
+    font-size: 27px;
+    padding: 1%;
+    font-family: Algerian;
+}
+header h3 img {
+    width: 55px;
+    height: 42px;
+}
+ul.social {
+    float: left;
+    list-style-type: none;
+    width: 19%;
+    margin-left: 472px;
+    margin-top: -74px;
+}
+header ul li {
+    float: left;
+    padding: 7px;
+    color: snow;
+    height: 25px;
+    margin-top: 14px;
+    margin-right: 26px;
+    background-color: #ffffff;
+}
+.nav {
+    width: 1300px;
+    height: 47px;
+    background-color: #4d5250;
+}
+header ul {
+    margin-top: -10px;
+    float: right;
+    margin-right: 13cm;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.nav li {
+    background-color: #f3f3f3;
+    border-radius: 5px;
+
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block; }
+
+
+.dropbtn {
+    color: white;
+    padding: 4px;
+    font-size: 14px;
+    border: none;
+    /* height: 2px; */
+    background-color: #534b4b;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+.nav li {
+    background-color: #575050;
+    border-radius: 5px;
+}
+.nav {
+    width: 1300px;
+    height: 47px;
+    background-color: #4d5250;
+}
+
+/*
+aside {
+    float: right;
+   
+    margin-top: -133px;
+}  
+.user{  margin-left: 253px}
+.user2 {
+    margin-top: -6px;
+}
+/*h5 {
+    display: block;
+    font-size: 0.83em;
+    -webkit-margin-before: 1.67em;
+    -webkit-margin-after: 1.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 6px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+aside input[type=text]:focus{
+ 	width: 100%;
+ }
+ aside input[type=text] {
+    width: 106px;
+    -webkit-transition: width 0.4s ease-in-out;
+    height: 22px;
+    transition: width 0.4s ease-in-out;
+    padding-left: 27px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-image: url(search.png);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-color: #f1f1f1;
+}
+/*
+.user2 {
+    margin-top: -40px;
+    margin-left: 18px;
+}*/
+main {
+    width: 73%;
+   margin-top: 43px;
+}
+.product ul {
+   /* background-color: #c43a3a;*/
+    border-radius: 50px;
+    list-style-type: none;
+    width: 95%;
+    padding: 41px;
+    margin-top: -11px;
+    margin-left: 72px;
+    overflow: hidden;
+}
+.product ul li {
+    float: left;
+    margin-top: 12px;
+   /* background-color: #C43A3B;*/
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.product p {
+    background-color: #d0c8c8;
+    padding: 9px;
+    border: 1px solid;
+    border-radius: 11px;
+    margin-bottom: 3px;
+}
+.product img {
+    width: 254px;
+}
+
+
+footer {
+  
+    width: 100%;
+    margin: auto;
+    margin-top: 104PX;
+    height: 23%;
+    background-color: lightgray;
+}
+footer h6 {
+    font-size: 11px;
+}
+.contact {
+   
+    margin-left: 260px;
+    margin-top: -135px;
+    width: 10%;
+    margin-top: -80px;
+}
+.about {
+    width: 21%;
+    margin-top: -38px;
+}
+.info {
+    margin-left: 48px;
+}
+.contact {
+    margin-left: 260px;
+    margin-top: -135px;
+    width: 10%;
+}
+
+.product img{
+	width: 254px;
+
+}
+footer p {
+    margin-top: 48px;
+    margin-left: 401px;
+}
+/*user page*/
+/*.user-page*/
+ aside {
+    width: 32%;
+    float: right;
+    margin-top: -133px;
+}
+/*.user-page */
+.user {
+    margin-left: 253px;
+    width: 14%;
+    margin-left: 0px;
+}
+form.user-page {
+    border: 3px dashed grey;
+    width: 30%;
+    height: 170px;
+    padding: 34px;
+    margin-top: 29px;
+    margin-left: 19px;
+}
+.account-login a:hover{
+	color: red;
+}
+ .account-login  a{
+	color:black;
+	text-decoration: none;
+}
+input[type="submit"] {
+    margin-top: 10px;
+    width: 300px;
+}
+.account-login aside h4{
+    height: 40px;
+    line-height: 40px;
+    background-color: #494949;
+    color: #FFFFFF;
+    background-position: 12px;
+    margin-bottom: 0;
+    border: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    border-bottom: 1px solid #333;
+    text-transform: uppercase;
+}
+.account-login aside ul{
+	list-style: none;
+}
+.account-login aside li {
+    padding: 7px 0px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #666;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.account-login li:before {
+    content: "\f101";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    padding-right: 6px;
+}
+.account-login aside {
+    float: left;
+    width: 20%;
+    margin-top: -220px;
+    margin-left: 550px;
+}
+
+inspector-stylesheet:1
+.info {
+    width: 81px;
+    margin-left: 41px;
+}
+/*BestSales*/
+.catog {
+    padding: 41px;
+   padding-left: 132px;
+}
+.catog h2 {
+    /* HEIGHT: 0px; */
+    background-color: #2a0505;
+    float: left;
+    padding: 31px;
+}
+
+h2#mac {
+     background-color: #2a0505;
+    color: white;
+    width: 129px;
+    height: 15px;
+    padding-left: 88px;
+    border-radius: 25px;
+    margin-top: 9px;
+    padding-top: 18px;
+    margin-right: 56px;
+    margin-left: -37px;
+}
+h2#iphone{
+     background-color: #2a0505;
+    color: white;
+    width: 129px;
+    height: 15px;
+    padding-left: 88px;
+    border-radius: 25px;
+    margin-top: 9px;
+    padding-top: 18px;
+    margin-right: 56px;
+    margin-left: -37px;
+}
+h2#ipad {
+    background-color: #2a0505;
+    color: white;
+    width: 129px;
+    height: 15px;
+    padding-left: 88px;
+    border-radius: 25px;
+    margin-top: 9px;
+    padding-top: 18px;
+    margin-right: 56px;
+    margin-left: -37px;
+}
